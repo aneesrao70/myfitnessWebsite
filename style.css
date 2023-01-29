@@ -1,0 +1,105 @@
+body {
+    background-image: url(2.jpg);
+    background-size: cover;
+}
+#intro, #menu, #login {
+    margin: 50px 50px;
+    display: inline-block;
+    min-height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+#menu a, #login a,.grid-container a {
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    background-color: pink;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 2px;
+    transition: background 1s, color 2s, text-shadow 3s;
+    transition-timing-function: linear;
+
+}
+#menu a:hover,#login a:hover, .grid-container a:hover {
+    background:transparent;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#menu {
+    margin-left: 400px;
+}
+#intro {
+    background:pink;
+    color: white;
+    font-size: 17px;
+    padding: 13px;
+}
+#theme {
+    margin-left: 90px;
+    font-size: 70px;
+    margin-top: 0;
+}
+#join {
+    margin: 50px 0 30px 90px;
+    font-size: 30px;
+}
+#challenges {
+    text-decoration: none;
+    margin-left: 90px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+    transition: background-color 1s, color 1s;
+}
+#challenges:hover {
+    background-color: pink;
+    color: white;
+    border:1px solid transparent;
+}
+.grid-container div {
+    background-color: rgb(96, 158, 212,0.7);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows: 400px;
+    margin: 10px 0 10px 90px;
+    grid-gap: 50px;
+}
+img {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+p1 {
+    margin: 0 0 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+p2{
+    margin: 5px 0 0 40px;
+    font-size: 20px;
+    display: inline-block;
+}
+p3{
+    margin: 20px 0 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.grid-container a {
+    font-size: 20px;
+    min-width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 36px;
+    transition: background 1s, color 2s, text-shadow 3s;
+    transition-timing-function: linear;
+}
+
+
+
